@@ -1,6 +1,7 @@
 html{
     font-size: 10px;
-    margin-bottom: 1px;
+    margin: 10px;
+    padding: 10px;
 }
 
 *{
@@ -15,88 +16,89 @@ html{
 
 body{
     font-size: 2rem;
-    width: 500px;
-    max-width: 100%;
-    margin: auto;
     background-image: url(./paysage.jpg);
     background-size:100%;
     color: aliceblue;
-    display: flex;
-    flex-direction: column;       
 }
 
-
-h1{
-    font-size: 10rem;
-    background-color: brown;
+header h1{
+    font-size: 15rem;
+    background-color: rgb(240, 7, 7);
     border: 4mm ridge rgb(211 220 50 / 0.6);
-    margin-bottom: 15px;
-    display: flex; 
-    justify-content: center;
+    text-align: center;
+    margin: 5rem;
 }
 
-.texte{
-    background-color: chocolate;
-    border: 3mm ridge rgb(211 220 50 / 0.6);
-}
-
-.nav{
-    font-size: 2rem;
-    display: flex;
-    flex-direction:column;
-    align-items: center;        
-}
-
-a{
-    color: rgb(238, 235, 233);
-    background-color: rgb(206, 6, 6);
-    border: 3mm ridge ;
-    margin-bottom:1rem;
-    display: flex;
-    justify-content: center;
+nav a{
+    font-size: 3rem;
+    color: aliceblue;
+    background-color: rgb(87, 10, 231);
+    border: 2mm ridge rgb(211 220 50 / 0.6);
     text-decoration: none;
- }
-
-figure img{
-    width: 100%;
-    height: 100%;
-    object-fit:contain;
+    margin: 1rem 25rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 h2{
-    font-size: rem;
-    background-color: red;
-    border: 3mm ridge ;
-}
-section{
-    margin-bottom:2rem;
-    border: 4mm ridge black;
+    font-size: 5rem;
+    color: aliceblue;
+    background-color: rgb(87, 10, 231);
+    border: 2mm ridge rgb(211 220 50 / 0.6);
+    text-decoration: none;
+    margin: 5rem; 
+    padding:2rem ;
     display: flex;
-    flex-direction: column;
-    justify-content:space-between;
-
-}
-#présentation{
-    text-align: center;
-    border: 4mm ridge black;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-#identifiquation{
-    text-align: center;
+h2 a{
+    font-size: 3rem;
+    color: aliceblue;
+    background-color: rgb(231, 10, 10);
+    border: 2mm ridge rgb(211 220 50 / 0.6);
+    text-decoration: none;
+    margin: 1rem 25rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+img{
+    width: 600px
 }
 
-#les-moment-fort-de-sa-vie{
-    text-align: center;
+figure{
+    text-align: center; 
 }
 
-#frize{
-    text-align: center;
+figcaption{
+    margin: 1rem 10rem;
 }
 
-#Témoiniage-et-Citation{
-    text-align: center;    
+ul{
+    margin: 1rem 10rem;
+}
+
+p{
+   margin: 1rem 10rem; 
 }
 
 h3{
-    text-align: center;    
+    font-size: 3rem;
+    color: aliceblue;
+    background-color: rgb(10, 231, 47);
+    border: 2mm ridge rgba(20, 20, 19, 0.6);
+    text-decoration: none;
+    margin: 1rem 25rem; 
+    padding:1rem ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
+
+h3 p{
+    margin: 1rem 10rem;
+}
+
