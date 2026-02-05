@@ -37,7 +37,7 @@ h1{
 
 .texte{
     background-color: chocolate;
-    border: ;
+    border: 3mm ridge rgb(211 220 50 / 0.6);
 }
 
 .nav{
@@ -70,37 +70,33 @@ h2{
 }
 section{
     margin-bottom:2rem;
+    border: 4mm ridge black;
     display: flex;
     flex-direction: column;
     justify-content:space-between;
+
 }
 #présentation{
     text-align: center;
-    border: 4mm ridge orangered;
-    background: ;
+    border: 4mm ridge black;
 }
 
 #identifiquation{
     text-align: center;
-    border: 4mm ridge yellow;
 }
 
 #les-moment-fort-de-sa-vie{
     text-align: center;
-    border: 4mm ridge green;
 }
 
 #frize{
     text-align: center;
-    border: 4mm ridge blue;
 }
 
 #Témoiniage-et-Citation{
-    text-align: center;
-    border: 4mm ridge gold;    
+    text-align: center;    
 }
 
 h3{
-    text-align: center;
-    border: 4mm ridge black;      
+    text-align: center;    
 }
