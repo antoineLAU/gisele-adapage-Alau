@@ -54,7 +54,7 @@ h2{
     justify-content: space-evenly;
 }
 
-h2 a{
+section a{
     font-size: 3rem;
     color: aliceblue;
     background-color: rgb(231, 10, 10);
