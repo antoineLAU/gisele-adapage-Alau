@@ -1,0 +1,106 @@
+html{
+    font-size: 10px;
+    margin-bottom: 1px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:'Times New Roman', Times, serif ;
+    src: url();
+    font-weight: 100;
+}
+
+body{
+    font-size: 2rem;
+    width: 500px;
+    max-width: 100%;
+    margin: auto;
+    background-image: url(./paysage.jpg);
+    background-size:100%;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;       
+}
+
+
+h1{
+    font-size: 10rem;
+    background-color: brown;
+    border: 4mm ridge rgb(211 220 50 / 0.6);
+    margin-bottom: 15px;
+    display: flex; 
+    justify-content: center;
+}
+
+.texte{
+    background-color: chocolate;
+    border: ;
+}
+
+.nav{
+    font-size: 2rem;
+    display: flex;
+    flex-direction:column;
+    align-items: center;        
+}
+
+a{
+    color: rgb(238, 235, 233);
+    background-color: rgb(206, 6, 6);
+    border: 3mm ridge ;
+    margin-bottom:1rem;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+ }
+
+figure img{
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+}
+
+h2{
+    font-size: rem;
+    background-color: red;
+    border: 3mm ridge ;
+}
+section{
+    margin-bottom:2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+#présentation{
+    text-align: center;
+    border: 4mm ridge orangered;
+    background: ;
+}
+
+#identifiquation{
+    text-align: center;
+    border: 4mm ridge yellow;
+}
+
+#les-moment-fort-de-sa-vie{
+    text-align: center;
+    border: 4mm ridge green;
+}
+
+#frize{
+    text-align: center;
+    border: 4mm ridge blue;
+}
+
+#Témoiniage-et-Citation{
+    text-align: center;
+    border: 4mm ridge gold;    
+}
+
+h3{
+    text-align: center;
+    border: 4mm ridge black;      
+}
