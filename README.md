@@ -1,1 +1,1 @@
-pour ouvrir cliqué sur go live.
+pour ouvrir cliqué sur go live sur vs code.
